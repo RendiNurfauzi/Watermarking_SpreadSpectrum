@@ -1,0 +1,428 @@
+.watermarking-transform-domain.watermarkingTransformSection {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  overflow: hidden;
+}
+.watermarking-transform-domain .flexCol {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin: 24px auto 86px;
+  width: 1072px;
+  max-width: 85%;
+}
+@media (max-width: 575px) {
+  .watermarking-transform-domain .flexCol {
+    margin: 24px auto 80px;
+  }
+}
+@media (max-width: 383px) {
+  .watermarking-transform-domain .flexCol {
+    margin: 24px auto 50px;
+  }
+}
+.watermarking-transform-domain .contentBox {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background-color: #1f1f1f;
+  border-radius: 15px 15px 15px 15px;
+  box-shadow: 0px 4px 4px 0px rgba(255, 255, 255, 0.247);
+}
+.watermarking-transform-domain .heroTitle {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin: 9px auto 0px;
+  font: 400 40px/1.25 "Italianno", Helvetica, Arial, serif;
+  color: #dcdbff;
+  text-align: center;
+  text-shadow: 0px 4px 4px rgba(255, 255, 255, 0.2470588235);
+}
+@media (max-width: 991px) {
+  .watermarking-transform-domain .heroTitle {
+    align-items: flex-start;
+    font-size: 36px;
+  }
+}
+@media (max-width: 479px) {
+  .watermarking-transform-domain .heroTitle {
+    font-size: 32px;
+  }
+}
+.watermarking-transform-domain .flexRow {
+  position: relative;
+  display: flex;
+  gap: 0px 20px;
+  margin: 31px 0px 0px;
+}
+@media (max-width: 767px) {
+  .watermarking-transform-domain .flexRow {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px 20px;
+  }
+}
+.watermarking-transform-domain .contentBox1 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 526px;
+  min-width: 0px;
+  background-color: #1f1f1f;
+  border-radius: 15px 15px 15px 15px;
+  box-shadow: 0px 4px 4px 0px rgba(255, 255, 255, 0.247);
+}
+@media (max-width: 767px) {
+  .watermarking-transform-domain .contentBox1 {
+    margin-top: unset;
+    margin-bottom: unset;
+    width: 100%;
+    min-width: unset;
+  }
+}
+.watermarking-transform-domain .flexCol1 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 7px 0px;
+  margin: 11px 17px 24px;
+}
+@media (max-width: 575px) {
+  .watermarking-transform-domain .flexCol1 {
+    margin: 11px 16px 24px;
+  }
+}
+@media (max-width: 383px) {
+  .watermarking-transform-domain .flexCol1 {
+    margin: 11px 8px 24px;
+  }
+}
+.watermarking-transform-domain .originalImageTitle {
+  position: relative;
+  font: 400 40px/1.25 "Italianno", Helvetica, Arial, serif;
+  color: #dcdbff;
+  text-shadow: 0px 4px 4px rgba(255, 255, 255, 0.2470588235);
+}
+@media (max-width: 991px) {
+  .watermarking-transform-domain .originalImageTitle {
+    align-items: flex-start;
+    font-size: 36px;
+  }
+}
+@media (max-width: 479px) {
+  .watermarking-transform-domain .originalImageTitle {
+    font-size: 32px;
+  }
+}
+.watermarking-transform-domain .imagePlaceholder {
+  position: relative;
+  width: 100%;
+  min-height: 290px;
+  background-color: black;
+  border-radius: 15px 15px 15px 15px;
+  box-shadow: 0px 4px 4px 0px rgba(255, 255, 255, 0.247);
+}
+
+.watermarking-transform-domain .imagePlaceholder2 {
+  position: relative;
+  width: 100%;
+  min-height: 290px;
+  background-color: black;
+  border-radius: 15px 15px 15px 15px;
+  box-shadow: 0px 4px 4px 0px rgba(255, 255, 255, 0.247);
+}
+.watermarking-transform-domain .processedImageTitle {
+  position: relative;
+  width: 193.9875030518px;
+  max-width: 85%;
+  font: 400 40px/1.25 "Italianno", Helvetica, Arial, serif;
+  color: #dcdbff;
+  text-shadow: 0px 4px 4px rgba(255, 255, 255, 0.2470588235);
+}
+@media (max-width: 991px) {
+  .watermarking-transform-domain .processedImageTitle {
+    align-items: flex-start;
+    font-size: 36px;
+  }
+}
+@media (max-width: 479px) {
+  .watermarking-transform-domain .processedImageTitle {
+    font-size: 32px;
+  }
+}
+.watermarking-transform-domain .controlPanelRow {
+  position: relative;
+  display: flex;
+  gap: 0px 20px;
+  margin: 34px 0px 0px 3px;
+}
+@media (max-width: 991px) {
+  .watermarking-transform-domain .controlPanelRow {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px 20px;
+  }
+}
+.watermarking-transform-domain .opacitySection {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 523px;
+  min-width: 0px;
+  background-color: #1f1f1f;
+  border-radius: 15px 15px 15px 15px;
+  box-shadow: 0px 4px 4px 0px rgba(255, 255, 255, 0.247);
+}
+@media (max-width: 991px) {
+  .watermarking-transform-domain .opacitySection {
+    margin-top: unset;
+    margin-bottom: unset;
+    width: 100%;
+    min-width: unset;
+  }
+}
+.watermarking-transform-domain .flexCol2 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin: 14px 17px 22px 15px;
+}
+@media (max-width: 575px) {
+  .watermarking-transform-domain .flexCol2 {
+    margin: 14px 16px 22px 15px;
+  }
+}
+@media (max-width: 383px) {
+  .watermarking-transform-domain .flexCol2 {
+    margin: 14px 8px 22px;
+  }
+}
+.watermarking-transform-domain .contentBox3 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background-color: #2d2d2d;
+  border-radius: 15px 15px 15px 15px;
+  box-shadow: 0px 4px 4px 0px rgba(255, 255, 255, 0.247);
+}
+.watermarking-transform-domain .flexRow2 {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  gap: 0px 10px;
+  margin: 4px 8px 4px 25px;
+}
+@media (max-width: 575px) {
+  .watermarking-transform-domain .flexRow2 {
+    margin: 4px 8px 4px 16px;
+  }
+}
+@media (max-width: 383px) {
+  .watermarking-transform-domain .flexRow2 {
+    -moz-column-gap: 8px;
+    column-gap: 8px;
+    margin: 4px 8px;
+  }
+}
+.watermarking-transform-domain .opacityTitle {
+  position: relative;
+  font: 400 30px/1.26 "Italianno", Helvetica, Arial, serif;
+  color: white;
+  text-shadow: 0px 4px 4px rgba(255, 255, 255, 0.2470588235);
+}
+@media (max-width: 991px) {
+  .watermarking-transform-domain .opacityTitle {
+    align-items: flex-start;
+    font-size: 28px;
+  }
+}
+@media (max-width: 479px) {
+  .watermarking-transform-domain .opacityTitle {
+    font-size: 24px;
+  }
+}
+.watermarking-transform-domain .opacityControl {
+  position: relative;
+  margin: 2px 0px 1px;
+  width: 353px;
+  min-height: 35px;
+  background-color: black;
+  border-radius: 15px 15px 15px 15px;
+  box-shadow: 0px 4px 4px 0px rgba(255, 255, 255, 0.247);
+  color: #ffffff;
+  font-size: 17px;
+}
+.watermarking-transform-domain .inputImageButton {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin: 19px 0px 0px;
+  font: 400 30px/1.26 "Italianno", Helvetica, Arial, serif;
+  color: white;
+  text-align: center;
+  background-color: #2d2d2d;
+  border-radius: 15px 15px 15px 15px;
+  padding: 4px 8px 4px 8px;
+  box-shadow: 0px 4px 4px 0px rgba(255, 255, 255, 0.247);
+  text-shadow: 0px 4px 4px rgba(255, 255, 255, 0.2470588235);
+}
+.watermarking-transform-domain .inputWatermarkButton {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin: 23px 0px 0px;
+  font: 400 30px/1.26 "Italianno", Helvetica, Arial, serif;
+  color: white;
+  text-align: center;
+  background-color: #2d2d2d;
+  border-radius: 15px 15px 15px 15px;
+  padding: 4px 8px 4px 8px;
+  box-shadow: 0px 4px 4px 0px rgba(255, 255, 255, 0.247);
+  text-shadow: 0px 4px 4px rgba(255, 255, 255, 0.2470588235);
+}
+.watermarking-transform-domain .textInputSection {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 526px;
+  min-width: 0px;
+  background-color: #1f1f1f;
+  border-radius: 15px 15px 15px 15px;
+  box-shadow: 0px 4px 4px 0px rgba(255, 255, 255, 0.247);
+}
+@media (max-width: 991px) {
+  .watermarking-transform-domain .textInputSection {
+    margin-top: unset;
+    margin-bottom: unset;
+    width: 100%;
+    min-width: unset;
+  }
+}
+.watermarking-transform-domain .flexCol3 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin: 14px 18px 22px 17px;
+}
+@media (max-width: 575px) {
+  .watermarking-transform-domain .flexCol3 {
+    margin: 14px 16px 22px;
+  }
+}
+@media (max-width: 383px) {
+  .watermarking-transform-domain .flexCol3 {
+    margin: 14px 8px 22px;
+  }
+}
+.watermarking-transform-domain .flexRow3 {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  gap: 0px 10px;
+  margin: 5px 8px 3px 11px;
+}
+@media (max-width: 767px) {
+  .watermarking-transform-domain .flexRow3 {
+    align-items: center;
+    gap: 30px 10px;
+  }
+}
+@media (max-width: 383px) {
+  .watermarking-transform-domain .flexRow3 {
+    margin: 5px 8px 3px;
+  }
+}
+.watermarking-transform-domain .inputTextTitle {
+  position: relative;
+  font: 30px/1.26 "Italianno", Helvetica, Arial, serif;
+  color: white;
+  text-shadow: 0px 4px 4px rgba(255, 255, 255, 0.2470588235);
+}
+@media (max-width: 991px) {
+  .watermarking-transform-domain .inputTextTitle {
+    align-items: flex-start;
+    font-size: 28px;
+  }
+}
+@media (max-width: 767px) {
+  .watermarking-transform-domain .inputTextTitle {
+    margin-top: unset;
+    margin-right: unset;
+    margin-bottom: unset;
+    margin-left: unset;
+    width: 45%;
+  }
+}
+@media (max-width: 575px) {
+  .watermarking-transform-domain .inputTextTitle {
+    width: auto;
+  }
+}
+@media (max-width: 479px) {
+  .watermarking-transform-domain .inputTextTitle {
+    font-size: 24px;
+  }
+}
+.watermarking-transform-domain .textInputControl {
+  position: relative;
+  margin: 1px 0px 2px;
+  width: 353px;
+  min-height: 35px;
+  background-color: black;
+  border-radius: 15px 15px 15px 15px;
+  box-shadow: 0px 4px 4px 0px rgba(255, 255, 255, 0.247);
+  color: white;
+  font-size: 17px;
+}
+@media (max-width: 767px) {
+  .watermarking-transform-domain .textInputControl {
+    margin-top: unset;
+    margin-right: unset;
+    margin-bottom: unset;
+    margin-left: unset;
+    width: 100%;
+  }
+}
+.watermarking-transform-domain .processImageButton {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin: 19px 0px 0px;
+  font: 400 30px/1.26 "Italianno", Helvetica, Arial, serif;
+  color: white;
+  text-align: center;
+  background-color: #2d2d2d;
+  border-radius: 15px 15px 15px 15px;
+  padding: 4px 8px 4px 8px;
+  box-shadow: 0px 4px 4px 0px rgba(255, 255, 255, 0.247);
+  text-shadow: 0px 4px 4px rgba(255, 255, 255, 0.2470588235);
+}
+.watermarking-transform-domain .cekWatermark{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin: 23px 0px 0px;
+  font: 400 30px/1.26 "Italianno", Helvetica, Arial, serif;
+  color: white;
+  text-align: center;
+  background-color: #2d2d2d;
+  border-radius: 15px 15px 15px 15px;
+  padding: 4px 8px 4px 8px;
+  box-shadow: 0px 4px 4px 0px rgba(255, 255, 255, 0.247);
+  text-shadow: 0px 4px 4px rgba(255, 255, 255, 0.2470588235);
+}
+
+.watermarking-transform-domain .inputImageButton:hover,
+.watermarking-transform-domain .inputWatermarkButton:hover,
+.watermarking-transform-domain .processImageButton:hover,
+.watermarking-transform-domain .cekWatermark:hover {
+  box-shadow: 0px 0px 12px 4px rgba(0, 0, 0, 0.75); /* Efek glowing yang lebih kuat saat hover */
+  transition: background-color 0.3s ease;
+  background-color: #121212; /* Lebih gelap dari warna asli */
+  cursor: pointer;
+  color: red;
+}

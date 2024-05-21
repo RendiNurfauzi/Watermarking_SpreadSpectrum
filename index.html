@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous" />
+
+    <link rel="stylesheet" type="text/css" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+    <link rel="stylesheet" type="text/css" href="./css/common.css" />
+    <link rel="stylesheet" type="text/css" href="./css/fonts.css" />
+    <link rel="stylesheet" type="text/css" href="./css/Watermarking_TransformDomain.css" />
+    <script type="text/javascript" src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script type="text/javascript" src="https://unpkg.com/sticky-js@1.3.0/dist/sticky.min.js"></script>
+    <script type="text/javascript" src="https://unpkg.com/headroom.js@0.12.0/dist/headroom.min.js"></script>
+
+
+
+</head>
+
+<body class="flex-column">
+    <div class="watermarking-transform-domain watermarkingTransformSection">
+        <div class="flexCol">
+            <div class="contentBox">
+                <h1 class="heroTitle">Watermarking Spread Spectrum</h1>
+            </div>
+            <div class="flexRow">
+                <div class="contentBox1">
+                    <div class="flexCol1">
+                        <h1 class="originalImageTitle">Original Image</h1>
+                        <div class="imagePlaceholder"></div>
+                    </div>
+                </div>
+                <div class="contentBox1">
+                    <div class="flexCol1">
+                        <h1 class="processedImageTitle">Processed Image</h1>
+                        <div class="imagePlaceholder2"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="controlPanelRow">
+                <div class="opacitySection">
+                    <div class="flexCol2">
+                        <div class="contentBox3">
+                        </div>
+                        <button class="inputImageButton">Input Image</button>
+                        <input type="file" id="imageInput" style="display: none;">
+                        <button class="inputWatermarkButton">Input Watermark</button>
+                        <input type="file" id="watermarkInput" style="display: none;">
+                    </div>
+                </div>
+                <div class="textInputSection">
+                    <div class="flexCol3">
+                        <div class="contentBox3">
+                        </div>
+                        <button class="processImageButton">Process Image</button><button class="cekWatermark">Extract Watermark</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="watermarking.js"></script>
+    <script type="text/javascript">
+        AOS.init();
+        new Sticky('.sticky-effect');
+    </script>
+</body>
+
+</html>
